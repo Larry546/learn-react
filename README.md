@@ -1,10 +1,11 @@
 ## Personal Information:
 
-Full Name: Enter Your Full Name
+Full Name: Haonan Lu
 
-Northeastern ID: Enter your Northeastern ID
+Northeastern ID: 002788047
 
 ## Getting Started
+
 First, fork this repository and clone it to your local machine.
 
 Then, run the development server:
