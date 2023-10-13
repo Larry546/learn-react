@@ -9,11 +9,12 @@ import TodoList from "./qcomps/todos.js";
 import Gallery from "./qcomps/gallery_props.js";
 import Square from "./components/square.js";
 import PackingList from "./components/props_item.js";
+import List from "./qcomps/list_keys_id.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <PackingList />
+      <List />
     </div>
   );
 }
