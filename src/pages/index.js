@@ -8,11 +8,12 @@ import Bio from "./qcomps/bios.js";
 import TodoList from "./qcomps/todos.js";
 import Gallery from "./qcomps/gallery_props.js";
 import Square from "./components/square.js";
+import PackingList from "./components/props_item.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Square />
+      <PackingList />
     </div>
   );
 }
