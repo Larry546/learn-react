@@ -6,11 +6,12 @@ import Profile from "./qcomps/profile_mistake.js";
 import Firstcomp from "./qcomps/firstcomp.js";
 import Bio from "./qcomps/bios.js";
 import TodoList from "./qcomps/todos.js";
+import Gallery from "./qcomps/gallery_props.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <TodoList />
+      <Gallery />
     </div>
   );
 }
