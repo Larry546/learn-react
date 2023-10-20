@@ -15,11 +15,12 @@ import MenuBar from "./qcomps/menuBar.js";
 import Gallery from "./qcomps/state.js";
 import Form from "./qcomps/stuckForm.js";
 import FeedbackForm from "./qcomps/thankYouCrash.js";
+import Counter from "./qcomps/snapshot.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <FeedbackForm />
+      <Counter />
     </div>
   );
 }
