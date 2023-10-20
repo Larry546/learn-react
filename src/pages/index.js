@@ -16,11 +16,12 @@ import Gallery from "./qcomps/state.js";
 import Form from "./qcomps/stuckForm.js";
 import FeedbackForm from "./qcomps/thankYouCrash.js";
 import Counter from "./qcomps/snapshot.js";
+import RequestTracker from "./qcomps/shoppingCart.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Counter />
+      <RequestTracker />
     </div>
   );
 }
