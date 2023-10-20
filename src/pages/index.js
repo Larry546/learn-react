@@ -11,11 +11,12 @@ import Square from "./components/square.js";
 import PackingList from "./components/props_item.js";
 import List from "./qcomps/list_keys_id.js";
 import RecipeList from "./qcomps/recipes.js";
+import MenuBar from "./qcomps/menuBar.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <RecipeList />
+      <MenuBar />
     </div>
   );
 }
