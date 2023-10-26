@@ -15,13 +15,13 @@ import MenuBar from "./qcomps/menuBar.js";
 import Gallery from "./qcomps/state.js";
 import Form from "./qcomps/stuckForm.js";
 import FeedbackForm from "./qcomps/thankYouCrash.js";
-import Counter from "./qcomps/snapshot.js";
+import Counter from "./components/snapshot.js";
 import RequestTracker from "./qcomps/shoppingCart.js";
 
 export default function Home() {
   return (
     <div className={styles.main}>
-      <RequestTracker />
+      <Counter />
     </div>
   );
 }
