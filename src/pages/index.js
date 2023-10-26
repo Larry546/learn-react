@@ -18,7 +18,8 @@ import FeedbackForm from "./qcomps/thankYouCrash.js";
 import Counter from "./components/snapshot.js";
 import RequestTracker from "./qcomps/shoppingCart.js";
 import Scoreboard from "./qcomps/updObjectsForm.js";
-import List from "./qcomps/artistsArr.js";
+// import List from "./qcomps/artistsArr.js";
+import List from "./qcomps/artistsRemoveArr.js";
 
 export default function Home() {
     return (
