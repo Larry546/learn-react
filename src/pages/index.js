@@ -17,11 +17,12 @@ import Form from "./qcomps/stuckForm.js";
 import FeedbackForm from "./qcomps/thankYouCrash.js";
 import Counter from "./components/snapshot.js";
 import RequestTracker from "./qcomps/shoppingCart.js";
+import Scoreboard from "./qcomps/updObjectsForm.js";
 
 export default function Home() {
-  return (
-    <div className={styles.main}>
-      <Counter />
-    </div>
-  );
+    return (
+        <div className={styles.main}>
+            <Scoreboard />
+        </div>
+    );
 }
